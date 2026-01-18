@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gravitas+One&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero-title {
+  color: #ffffff;
+  padding-top: 120px;
+  font-family: 'Bebas Neue';
+  font-size: 8.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: #000000 10px 10px 20px;
+}
+
+.hero {
+  padding: 90px;
+  background-image: url('pexels-nc-farm-bureau-mark-31111077.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: #000000 10px 10px 20px;
+}
+
+
+.cta {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#symbol-1, #symbol-3 { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  align-content: center;
+}
+
+#symbol-2 { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  
+}
+
+.feature-card {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.visual img {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-card {
+  flex: 1;
+  background: #ffffff;
+  text-align: left;
+  min-height: 400px;
+}
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4F7942;
+}
+#info-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#id-1 {
+  background: #4F7942;
+  padding: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.cta-final {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+  .feature-card {
+    margin: 10px 0;
+  }
+}
