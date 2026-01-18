@@ -51,7 +51,32 @@
     </section>
 
     <section class="visual">
-      <img src="" alt="Product Preview" />
+      <div id="id-2">
+        <img src="prod-preview.png" class="visual-img" alt="Product Preview" />
+      </div>
+    </section>
+
+    <section class="signup-form">
+      <h2>Sign Up for GreenSense</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div class="form-group">
+          <label for="farm-size">Farm Size (acres)</label>
+          <input type="number" id="farm-size" name="farm-size" />
+        </div>
+        <button type="submit" class="cta">Create Account</button>
+      </form>
     </section>
 
     <section class="info">
@@ -59,8 +84,9 @@
         <img id="info-img" src="robot.png" alt="Icon" />
       </div>
       <div class="info-card" id="id-1">
-        <h1>Why Choose Us?</h1>
-        <p>
+        <h1 id="why">Why Choose Us?</h1>
+        <p id="info-paragraph">
+          <br />
           GreenSense is built specifically for small greenhouse farmers who want
           smarter decisions without added stress. Unlike complex and expensive
           farm management systems, GreenSense is simple, affordable, and focused
@@ -70,10 +96,6 @@
           GreenSense, you don’t just track your farm—you understand it.
         </p>
       </div>
-    </section>
-
-    <section class="cta-final">
-      <button class="cta">Sign Up Now</button>
     </section>
 
     <footer>
