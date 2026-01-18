@@ -48,6 +48,8 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 50px 20px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 h2 {
@@ -88,9 +90,10 @@ h2 {
 .visual {     
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
-#visual-img {
+.visual-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -220,10 +223,138 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  #hero-title {
+    font-size: 5rem;
+    padding-top: 80px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+    font-size: 18px;
+  }
+
   .features {
     flex-direction: column;
+    padding: 30px 15px;
   }
+
   .feature-card {
     margin: 10px 0;
+    padding: 15px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-card {
+    min-height: auto;
+  }
+
+  #why {
+    font-size: 1.8rem;
+  }
+
+  #info-paragraph {
+    font-size: 1rem;
+  }
+
+  .signup-form h2 {
+    font-size: 2rem;
+  }
+
+  .signup-form form {
+    padding: 20px;
+  }
+
+  .cta-final {
+    padding: 50px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #hero-title {
+    font-size: 3rem;
+    padding-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  .hero {
+    padding: 40px 15px;
+    font-size: 16px;
+  }
+
+  .hero br {
+    display: none;
+  }
+
+  .cta {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+
+  .features {
+    padding: 20px 10px;
+  }
+
+  .feature-card {
+    margin: 8px 0;
+    padding: 12px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  #symbol-1,
+  #symbol-2,
+  #symbol-3 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  #why {
+    font-size: 1.5rem;
+  }
+
+  #info-paragraph {
+    font-size: 0.95rem;
+    padding: 0 15px 15px 15px;
+  }
+
+  .signup-form {
+    padding: 40px 15px;
+  }
+
+  .signup-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .signup-form form {
+    padding: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .cta-final {
+    padding: 40px 15px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.9rem;
   }
 }
